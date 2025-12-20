@@ -1,0 +1,7 @@
+
+{
+  "name": "jammmin'",
+  "description": "A React web app for searching music and creating playlists using the Spotify API.",
+  "image": "jammmin.png",
+  "link": "https://jammming-kohl-eight.vercel.app/"
+}

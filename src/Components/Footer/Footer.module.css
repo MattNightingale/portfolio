@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid var(--accent-color);
+}
+
+.text {
+  color: var(--text-color);
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.ghIcon {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px 5px;
+}
+
+.liIcon {
+  height: 37px;
+  width: 37px;
+  margin: 0 10px 2px;
+}
+
+.ghIcon:hover,
+.liIcon:hover {
+  transform: scale(1.1);
+}
