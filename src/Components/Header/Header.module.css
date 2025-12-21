@@ -20,16 +20,15 @@
 
 
 .logo {
-    height: 70px;
-    width: 80px;
-    margin-right: 10px;
+    height: 100px;
+    width: 110px;
 }
 
 .headerRight {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .navLinks a {
@@ -54,6 +53,7 @@
     .headerLeft, .headerRight {
         justify-content: center;
         flex-grow: 0;
+        margin-bottom: 0;
     }
 
     .navLinks a {
