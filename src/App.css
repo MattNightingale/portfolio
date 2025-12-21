@@ -10,15 +10,32 @@ body {
   background-color: #22375f;
   font-size: 1rem;
   font-family: lato, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* global variables */
 :root {
-  --background-color: #22375f;
+  --background-color: #192a4a;
   --primary-color: #2c4a80;
   --secondary-color: #90edfc;
   --accent-color: #f39c12;
   --text-color: #ffffff;
-
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.rootLayout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+}

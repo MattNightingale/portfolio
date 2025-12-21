@@ -1,0 +1,20 @@
+.activeLink {
+    color: var(--accent-color);
+    margin: 0 15px;
+    font-size: 1.1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.inactiveLink {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.inactiveLink:hover {
+    color: var(--accent-color);
+    transform: scale(1.05);
+}

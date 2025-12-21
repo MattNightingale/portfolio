@@ -1,7 +1,27 @@
 
-{
-  "name": "jammmin'",
+[
+  {
+  "name": "Rarekind",
+  "description": "A React application designed to help users browse and manage collections and items. Users can explore public collections, create and edit their own collections, and manage items within those collections. The application interacts with the RareKind backend API, using Redux Toolkit for state management and CSS Modules for styling to ensure a modular and maintainable codebase.",
+  "image": "rarekind.png",
+  "link": "https://rarekind-frontend.vercel.app/"
+},
+  {
+  "name": "Jammmin'",
   "description": "A React web app for searching music and creating playlists using the Spotify API.",
   "image": "jammmin.png",
   "link": "https://jammming-kohl-eight.vercel.app/"
+},
+  {
+  "name": "Ask Beatz",
+  "description": "A responsive website for Ask Beatz, created as part of the TechNative Challenge 5 - Company Website project. Built using HTML, CSS and JavaScript, following a supplied Figma design and focused on AI-driven functionality.",
+  "image": "askbeatz.png",
+  "link": "https://technative-academy.github.io/ask-beatz/"
+},
+  {
+  "name": "Fetch me a cocktail",
+  "description": "A project built with React that allows users to search for and favourite cocktail recipes by name using the Cocktail DB API. It features a clean, responsive design and demonstrates fundamental React concepts such as component-based architecture and state management.",
+  "image": "fetchmeacocktail.png",
+  "link": "https://fetch-me-a-cocktail.vercel.app/"
 }
+]

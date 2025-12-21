@@ -1,3 +1,4 @@
+import {SiteNav} from "../SiteNav/SiteNav";
 import styles from "./Header.module.css";
 
 export function Header() {
@@ -12,11 +13,7 @@ export function Header() {
       <h1>Matt Nightingale</h1>
       </div>
       <div className={styles.headerRight}>
-      <nav className={styles.navLinks}>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <SiteNav />
       </div>
     </header>
   );
