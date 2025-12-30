@@ -3,10 +3,10 @@ import { ProjectCard } from "../../Components/ProjectCard/ProjectCard.jsx";
 import projects from "../../assets/projects.json";
 
 function Projects() {
-  return (
+ return (
     <div className={styles.wrapper}>
-      <div className={styles.cardContainer}>
-        <h2 className={styles.title}>Projects </h2>
+      <h2 className={styles.title}>Projects</h2>
+      <div className={styles.carousel}>
         {projects.map((p) => (
           <ProjectCard
             key={p.name}
