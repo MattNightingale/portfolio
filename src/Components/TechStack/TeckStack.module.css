@@ -7,9 +7,36 @@
     padding: 20px;
     border-radius: 16px;
     width: 80%;
+    color: var(--text-color);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+.techItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    border: 1px solid var(--accent-color);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--background-color);
+}
+
+.title {
+    width: 90%;
+    text-align: left;
+    margin: 10px auto;
+    display: inline;
 }
 
 .icon {
     width: 50px;
     height: 50px;
+}
+
+p {
+    padding-bottom: 5px;
+    margin-top: 5px;
 }
