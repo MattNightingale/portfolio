@@ -1,0 +1,30 @@
+[
+    {
+        "name": "JavaScript",
+        "icon": "/assets/javascript.png"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "/assets/typescript.png"
+    },
+    {
+        "name": "React",
+        "icon": "/assets/react.png"
+    },
+    {
+        "name": "CSS",
+        "icon": "/assets/css.png"
+    },
+    {
+        "name": "HTML",
+        "icon": "/assets/html.png"
+    },
+    {
+        "name": "Redux-Toolkit",
+        "icon": "/assets/redux.png"
+    },
+    {
+        "name": "Git",
+        "icon": "/assets/git.png"
+    }
+]

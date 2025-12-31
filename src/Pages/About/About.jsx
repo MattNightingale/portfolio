@@ -1,4 +1,6 @@
+import TechStack from "../../Components/TechStack/TeckStack";
 import styles from "./About.module.css";
+
 
 function About() {
   return (
@@ -26,6 +28,7 @@ function About() {
         </p>
       </div>
     </div>
+    <TechStack />
     </div>
   );
 }

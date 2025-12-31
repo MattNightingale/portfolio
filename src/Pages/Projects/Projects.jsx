@@ -1,9 +1,9 @@
 import styles from "./Projects.module.css";
 import { ProjectCard } from "../../Components/ProjectCard/ProjectCard.jsx";
-import projects from "../../assets/projects.json";
+import projects from "../../data/projects.json";
 
 function Projects() {
- return (
+  return (
     <div className={styles.wrapper}>
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.carousel}>

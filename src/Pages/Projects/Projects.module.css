@@ -3,10 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 90%;
+  width: 100%;
   background-color: var(--primary-color);
-  margin: 30px auto;
-  border-radius: 16px;
+  margin: 0;
+  border-radius: 0;
+  height: 100%;
 }
 
 .title {
@@ -19,50 +20,58 @@
 
 .carousel {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-wrap: nowrap;
+  gap: 12px;
   width: 100%;
-  max-width: 1200px;
-  justify-content: center;
+  max-width: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 0 16px;
+  scroll-padding-left: 16px;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+.carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 10px;
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+@media (min-width: 769px) {
   .wrapper {
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 16px;
   }
 
   .carousel {
-    flex-wrap: nowrap;
-    gap: 12px;
-    max-width: none;
-    width: 100%;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    padding: 0 16px;
-    scroll-padding-left: 16px;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    overflow-x: visible;
+    scroll-snap-type: none;
+    padding: 0;
+    scroll-padding-left: 0;
+    justify-content: center;
+    margin-bottom: 0;
   }
 
   .carousel::-webkit-scrollbar {
-    height: 8px;
-  }
-
-  .carousel::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-  }
-
-  .carousel::-webkit-scrollbar-thumb {
-    background: var(--accent-color);
-    border-radius: 10px;
-  }
-
-  .carousel::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-color);
+    display: none;
   }
 }
