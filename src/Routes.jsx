@@ -4,7 +4,7 @@ import { Footer } from "./Components/Footer/Footer.jsx";
 import Home from "./Pages/Home/Home.jsx";
 import About from "./Pages/About/About.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
-import Projects from "./Pages/Projects/Projects.jsx";
+import Projects from "./Pages/Projects/ProjectsPage.jsx";
 import "./App.css";
 
 function Root() {
