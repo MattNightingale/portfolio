@@ -2,7 +2,7 @@ import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Header } from "./Components/Header/Header.jsx";
 import { Footer } from "./Components/Footer/Footer.jsx";
 import Home from "./Pages/Home/Home.jsx";
-import About from "./Pages/About/About.jsx";
+import About from "./Pages/About/AboutPage.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import Projects from "./Pages/Projects/ProjectsPage.jsx";
 import "./App.css";

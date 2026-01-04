@@ -28,6 +28,7 @@
     text-align: center;
     color: var(--text-color);
     border: 1px solid var(--accent-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .closeButton {
