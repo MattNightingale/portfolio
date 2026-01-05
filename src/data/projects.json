@@ -14,7 +14,7 @@
 },
   {
   "name": "Ask Beatz",
-  "description": "A responsive website for Ask Beatz, created as part of the TechNative Challenge 5 - Company Website project. Built using HTML, CSS and JavaScript, following a supplied Figma design and focused on AI-driven functionality.",
+  "description": "A responsive website built using HTML, CSS and JavaScript, following a supplied Figma design and focused on AI-driven functionality. The site allows users to input questions and receive AI-generated music recommendations. It features a clean, user-friendly interface and demonstrates proficiency in API consumption.",
   "image": "/assets/askbeatz.png",
   "link": "https://technative-academy.github.io/ask-beatz/"
 },

@@ -40,10 +40,7 @@
   z-index: 1;
 }
 
-.wrapper:hover {
-    transform: scale(1.03);
-    transition: ease-in-out 0.3s;
-}
+
 
 .title {
   margin: 0;
@@ -67,4 +64,8 @@
     scroll-snap-align: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   }
+  .wrapper:hover {
+    transform: scale(1.03);
+    transition: ease-in-out 0.3s;
+}
 }

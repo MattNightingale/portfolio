@@ -3,6 +3,7 @@ import styles from "./Footer.module.css";
 export function Footer() {
   return (
     <footer className={styles.wrapper}>
+      <div className={styles.footerContent}>
       <p className={styles.text}>&copy; 2025 Matt Nightingale</p>
       <div className={styles.socialLinks}>
         <a
@@ -19,6 +20,7 @@ export function Footer() {
         >
           <img src="/assets/github.png" className={styles.ghIcon} />
         </a>
+      </div>
       </div>
     </footer>
   );

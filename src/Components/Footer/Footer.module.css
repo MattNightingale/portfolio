@@ -10,6 +10,16 @@
   border-top: 1px solid var(--accent-color);
 }
 
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .text {
   color: var(--text-color);
   font-size: 1rem;
