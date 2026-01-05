@@ -3,7 +3,7 @@
   height: 600px;
   width: 90%;
   max-width: 400px;
-  border-radius: 8px;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -17,9 +17,6 @@
   cursor: pointer;
   scroll-snap-align: center;
 }
-
-
-
 
 .wrapper > * {
   position: relative;
@@ -58,12 +55,30 @@
 
 @media (min-width: 769px) {
   .wrapper {
-    margin: 10px;
+    height: 250px;
+    width: 80%;
+    max-width: 1000px;
     scroll-snap-align: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    flex-direction: row;
   }
+
+  .wrapper:nth-child(odd) {
+    flex-direction: row-reverse;
+    margin-right: 50px;
+  }
+
+  .wrapper:nth-child(even) {
+    margin-left: 50px;
+  }
+
   .wrapper:hover {
     transform: scale(1.03);
     transition: ease-in-out 0.3s;
-}
+  }
+
+  .content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

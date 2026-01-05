@@ -5,13 +5,14 @@ import styles from "./About.module.css";
 function About() {
   return (
    <div className={styles.wrapper}>
+    <h2 className={styles.title}>About</h2>
     <img
           src="/assets/mugshot.jpg"
           alt="Matt Nightingale portrait"
           className={styles.portrait}
         />
+        
     <div className={styles.content}>      
-      <h2 className={styles.title}>About</h2>
       <div className={styles.text}>
         <p>
           I am a front-end developer with a strong engineering background and

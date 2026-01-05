@@ -28,10 +28,9 @@
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   padding: 0 16px;
-  scroll-padding-left: 16px;
+  scroll-padding: 36px;
   justify-content: flex-start;
   box-sizing: border-box;
-  margin-bottom: 20px;
 }
 
 .carousel::-webkit-scrollbar {
@@ -59,12 +58,10 @@
     margin: 50px auto;
     border-radius: 16px;
     padding: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   }
 
   .carousel {
     flex-wrap: wrap;
-    gap: 50px;
     max-width: 1200px;
     overflow-x: visible;
     scroll-snap-type: none;
