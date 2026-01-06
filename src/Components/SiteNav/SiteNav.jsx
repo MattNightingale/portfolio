@@ -3,8 +3,9 @@ import styles from "./SiteNav.module.css";
 
 export function SiteNav() {
   const navLinks = [
-    { label: "Projects", url: "/projects"},
+    { label: "Home", url: "/"},
     { label: "About", url: "/about"},
+    { label: "Projects", url: "/projects"},
     { label: "Contact", url: "/contact" }
   ];
   return (

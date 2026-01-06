@@ -1,9 +1,12 @@
+import styles from "./Home.module.css";
+import About from "../../Components/About/About.jsx";
+import Projects from "../../Components/Projects/Projects.jsx";
 
 function Home() {
   return (
-    <div>
-      <h2>Welcome to My Portfolio</h2>
-      <p>This is the home page of my portfolio website.</p>
+    <div className={styles.wrapper}>
+      <About />
+      <Projects />
     </div>
   );
 }
