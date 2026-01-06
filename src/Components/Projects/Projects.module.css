@@ -54,9 +54,13 @@
   .wrapper {
     width: 90%;
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 0 auto;
     border-radius: 16px;
     padding: 20px;
+  }
+
+  .title {
+    width: 85%;
   }
 
   .carousel {
