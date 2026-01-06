@@ -61,16 +61,16 @@ p {
   .wrapper {
     max-width: 1000px;
     width: 90%;
-    margin-left: 50px;
+    
     margin-right: 0px;
   }
 
   .title {
-    width: 85%;
+    width: 90%;
   }
 
   .techList {
-    margin-left: 50px;
+    
     margin-right: 0px;
   }
 }

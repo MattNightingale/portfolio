@@ -55,7 +55,8 @@
 
 @media (min-width: 769px) {
   .wrapper {
-    height: 300px;
+    height: fit-content;
+    min-height: 300px;
     width: 80%;
     max-width: 1000px;
     scroll-snap-align: none;
