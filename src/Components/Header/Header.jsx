@@ -1,8 +1,19 @@
 import { SiteNav } from "../SiteNav/SiteNav";
 import styles from "./Header.module.css";
 import { slide as Menu } from "react-burger-menu";
+import { useState } from "react";
 
 export function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleStateChange = (state) => {
+    setMenuOpen(state.isOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className={styles.wrapper}>
       <div className={styles.headerContent}>
@@ -17,8 +28,13 @@ export function Header() {
         <div className={styles.headerRight}>
           <SiteNav />
         </div>
-        <Menu right className={styles.burgerMenu}>
-          <SiteNav />
+        <Menu 
+          right 
+          className={styles.burgerMenu}
+          isOpen={menuOpen}
+          onStateChange={handleStateChange}
+        >
+          <SiteNav onClick={closeMenu} />
         </Menu>
       </div>
     </header>

@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styles from "./SiteNav.module.css";
 
-export function SiteNav() {
+export function SiteNav({ onClick }) {
   const navLinks = [
     { label: "Home", url: "/"},
     { label: "About", url: "/about"},
@@ -15,6 +15,7 @@ export function SiteNav() {
           <NavLink
             key={navLink.url}
             to={navLink.url}
+            onClick={onClick}
             className={({ isActive }) =>
               isActive ? styles.activeLink : styles.inactiveLink
             }
@@ -26,4 +27,3 @@ export function SiteNav() {
     </div>
   );
 }
-
