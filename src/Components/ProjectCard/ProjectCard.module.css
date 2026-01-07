@@ -73,7 +73,7 @@
   .wrapper {
     height: fit-content;
     min-height: 300px;
-    width: 80%;
+    width: 85%;
     max-width: 1000px;
     scroll-snap-align: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
