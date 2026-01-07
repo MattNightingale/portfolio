@@ -25,8 +25,10 @@
 
 .image {
   width: 100%;
-  height: auto;
+  height: 175px;
   border-radius: 8px;
+  object-position: top;
+  object-fit: cover;
   margin: 15px auto;
 }
 
@@ -62,6 +64,7 @@
     scroll-snap-align: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     flex-direction: row;
+    align-items: center;
   }
 
   .wrapper:nth-child(odd) {
@@ -79,7 +82,8 @@
   }
 
   .image {
-    width: 50%;
+    width: 300px;
+    height: 200px;
   }
 
   .content {

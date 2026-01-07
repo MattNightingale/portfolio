@@ -29,6 +29,7 @@ body {
   --secondary-color: #90edfc;
   --accent-color: #f39c12;
   --text-color: #ffffff;
+  --header-height: 100px;
 }
 
 .app {
@@ -55,4 +56,5 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
+  padding-top: var(--header-height)
 }
