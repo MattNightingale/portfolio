@@ -55,6 +55,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 100vh;
   padding-top: var(--header-height)
+}
+
+@media (min-width: 769px) {
+  .maincontent {
+    min-height: 100vh;
+  }
 }
