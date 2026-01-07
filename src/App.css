@@ -1,6 +1,6 @@
 html {
   min-height: 100%;
-  scrollbar-gutter: stable both-edges;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -19,12 +19,12 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  scrollbar-gutter: stable both-edges;
+  scrollbar-gutter: stable;
 }
 
 /* global variables */
 :root {
-  --background-color: #192a4a;
+  --background-color: rgba(25, 42, 74, 0.85);
   --primary-color: #2c4a80;
   --secondary-color: #90edfc;
   --accent-color: #f39c12;
@@ -45,10 +45,14 @@ body {
 
 .mainContent {
   flex: 1;
-  width: 100%;
-  
+  min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('/assets/cogs.jpg');
+  background-image: url("/assets/cogs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
