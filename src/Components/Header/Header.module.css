@@ -74,9 +74,6 @@
   border-radius: 2px;
 }
 
-:global(.bm-burger-bars:hover) {
-  background-color: var(--accent-color);
-}
 
 :global(.bm-menu-wrap) {
   position: fixed;
