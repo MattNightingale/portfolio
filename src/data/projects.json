@@ -4,24 +4,32 @@
   "name": "Rarekind",
   "description": "A React application designed to help users browse and manage collections and items. Users can explore public collections, create and edit their own collections, and manage items within those collections. The application interacts with the RareKind backend API, using Redux Toolkit for state management and CSS Modules for styling to ensure a modular and maintainable codebase.",
   "image": "/assets/rarekind2.png",
-  "link": "https://rarekind-frontend.vercel.app/"
+  "link": "https://rarekind-frontend.vercel.app/",
+  "github": "https://github.com/MattNightingale/rarekind-frontend",
+  "tech": ["/assets/javascript.png", "/assets/react.png", "/assets/css.png", "/assets/html.png", "/assets/redux.png", "/assets/git.png"]
 },
   {
   "name": "Jammmin'",
   "description": "A React web app for searching music and creating playlists using the Spotify API. Users can search for tracks, add them to a custom playlist, and save the playlist to their Spotify account. The app features a clean, responsive design and demonstrates key React concepts such as component-based architecture and state management. OAuth authentication is implemented to securely connect with the Spotify API.",
   "image": "/assets/jammmin2.png",
-  "link": "https://jammming-kohl-eight.vercel.app/"
+  "link": "https://jammming-kohl-eight.vercel.app/",
+  "github": "https://github.com/MattNightingale/Jammming",
+  "tech": ["/assets/javascript.png", "/assets/react.png", "/assets/css.png", "/assets/html.png", "/assets/git.png"]
 },
   {
   "name": "Ask Beatz",
   "description": "A responsive website built using HTML, CSS and JavaScript, following a supplied Figma design and focused on AI-driven functionality. The site allows users to input questions and receive AI-generated music recommendations. It features a clean, user-friendly interface and demonstrates proficiency in API consumption.",
   "image": "/assets/askbeatz2.png",
-  "link": "https://technative-academy.github.io/ask-beatz/"
+  "link": "https://technative-academy.github.io/ask-beatz/",
+  "github": "https://github.com/MattNightingale/ask-beatz",
+  "tech": ["/assets/javascript.png", "/assets/css.png", "/assets/html.png", "/assets/git.png"]
 },
   {
   "name": "Fetch me a cocktail",
   "description": "A project built with React that allows users to search for and favourite cocktail recipes by name using the Cocktail DB API. It features a clean, responsive design and demonstrates fundamental React concepts such as component-based architecture and state management.",
   "image": "/assets/fetchmeacocktail2.png",
-  "link": "https://fetch-me-a-cocktail.vercel.app/"
+  "link": "https://asquared-tech-test.vercel.app/",
+  "github": "https://github.com/MattNightingale/Asquared-tech-test",
+  "tech": ["/assets/javascript.png", "/assets/typescript.png", "/assets/react.png", "/assets/css.png", "/assets/html.png", "/assets/redux.png", "/assets/git.png"]
 }
 ]
