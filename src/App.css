@@ -46,8 +46,9 @@ body {
 .mainContent {
   flex: 1;
   width: 100%;
-  background-color: var(--background-color);
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('/assets/cogs.jpg');
 }
