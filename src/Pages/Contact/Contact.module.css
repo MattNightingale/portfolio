@@ -24,7 +24,7 @@
     z-index: 1000;
     width: 60%;
     min-width: 300px;
-    max-width: 650px;
+    max-width: 700px;
     text-align: center;
     color: var(--text-color);
     border: 1px solid var(--accent-color);
@@ -45,4 +45,94 @@
 .closeButton:hover {
     color: var(--accent-color);
     transform: scale(1.1);
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.label {
+    align-self: flex-start;
+    margin-left: 10%;
+    font-weight: bold;
+    display: inline;
+    text-align: left;
+}
+
+.input {
+    margin-top: 5px;
+    width: 200px;
+    height: 20px;
+    display: block;
+    border-radius: 4px;
+    font-family: lato, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.textarea {
+    display: block;
+    resize: vertical;
+    width: 450px;
+    height: 100px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-family: lato, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submitButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: lato, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.submitButton:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.githubIcon {
+    width: 70px;
+    height: 70px;
+    
+}
+
+.linkedinIcon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.linkedinIcon:hover {
+   transform: scale(1.05);
+}
+
+.githubIcon:hover {
+   transform: scale(1.05);
 }
