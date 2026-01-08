@@ -1,5 +1,7 @@
 import TechStack from "../../Components/TechStack/TeckStack";
 import styles from "./About.module.css";
+import { motion, useInView, useAnimation } from "framer-motion";
+import { useEffect, useRef } from "react";
 
 
 function About() {
