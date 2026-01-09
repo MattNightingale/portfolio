@@ -52,7 +52,7 @@ function Contact() {
         </p>
         <div className={styles.formContainer}>
           <form onSubmit={onSubmit} className={styles.form}>
-            <input type="text" name="name" placeholder="Name" requiredclassName={styles.input} />
+            <input type="text" name="name" placeholder="Name" required className={styles.input} />
             <input type="email" name="email" placeholder="Email" required className={styles.input} />
             <textarea name="message" placeholder="Message" required className={styles.textarea}></textarea>
             <button type="submit" className={styles.submitButton}>
