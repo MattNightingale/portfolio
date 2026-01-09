@@ -54,7 +54,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: 1;
   pointer-events: none;
 }
 
@@ -71,6 +71,7 @@ body {
 .mainContent
  {
   position: relative;
+  z-index: 2;
 }
 
 @media (min-width: 1024px) {
