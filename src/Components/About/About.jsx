@@ -9,7 +9,7 @@ function About() {
       <SlideInFromLeft fullWidth>
       <h2 className={styles.title}>About</h2>
       </SlideInFromLeft>
-      <SlideInFromTop >
+      <SlideInFromTop>
         <img
           src="/assets/mugshot.jpg"
           alt="Matt Nightingale portrait"
