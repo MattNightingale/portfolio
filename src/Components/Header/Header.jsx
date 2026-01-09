@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import { slide as Menu } from "react-burger-menu";
 import { useState } from "react";
 
+
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -16,7 +17,7 @@ export function Header() {
 
   return (
     <header className={styles.wrapper}>
-      <div className={styles.headerContent}>
+      <div className={styles.headerContent}>    
         <div className={styles.headerLeft}>
           <img
             className={styles.logo}
@@ -28,8 +29,8 @@ export function Header() {
         <div className={styles.headerRight}>
           <SiteNav />
         </div>
-        <Menu 
-          right 
+        <Menu
+          right
           className={styles.burgerMenu}
           isOpen={menuOpen}
           onStateChange={handleStateChange}

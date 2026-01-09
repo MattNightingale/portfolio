@@ -8,6 +8,8 @@ body {
   min-height: 100vh;
   margin: 0;
   overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #root {
@@ -55,10 +57,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: var(--header-height)
+  padding-top: var(--header-height);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
   .maincontent {
     min-height: 100vh;
   }

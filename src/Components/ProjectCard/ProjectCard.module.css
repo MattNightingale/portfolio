@@ -69,7 +69,7 @@
   transform: scale(1.05);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
   .wrapper {
     height: fit-content;
     min-height: 300px;
@@ -102,6 +102,6 @@
   }
 
   .content {
-    margin: 20px;
+    margin: 0 20px;
   }
 }

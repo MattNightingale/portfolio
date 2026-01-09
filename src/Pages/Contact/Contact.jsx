@@ -46,7 +46,7 @@ function Contact() {
           &times;
         </button>
         <h2 className={styles.title}>Contact Me</h2>
-        <p>
+        <p className={styles.text}>
           I'd love to hear from you! Please fill out the form below or connect
           with me on LinkedIn or Github:
         </p>

@@ -18,3 +18,8 @@
     color: var(--accent-color);
     transform: scale(1.05);
 }
+
+:global(.bm-item-list) .activeLink {
+  color: var(--accent-color);
+ 
+}

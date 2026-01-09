@@ -57,7 +57,7 @@ p {
   margin-top: 5px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
   .wrapper {
     max-width: 1000px;
     width: 90%;
@@ -68,6 +68,4 @@ p {
   .title {
     width: 90%;
   }
-
-  
 }
