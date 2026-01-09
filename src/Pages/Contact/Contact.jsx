@@ -1,6 +1,7 @@
 import styles from "./Contact.module.css";
 import { useNavigate } from "react-router";
 import { useState } from 'react';
+import { SlideInFromTop } from "../../Components/Animations/Animations";
 
 function Contact() {
   const navigate = useNavigate();
@@ -28,6 +29,7 @@ function Contact() {
   if (result === "Success!") {
     return (
       <div className={styles.wrapper}>
+        <SlideInFromTop>
         <div className={styles.popup}>
           <button className={styles.closeButton} onClick={handleClose}>
             &times;
@@ -35,19 +37,21 @@ function Contact() {
           <h2 className={styles.title}>Thank You!</h2>
           <p>Your message has been sent successfully, I endeavour to respond as soon as possible.</p>
         </div>
+        </SlideInFromTop>
       </div>
     );
   }
 
   return (
     <div className={styles.wrapper}>
+      <SlideInFromTop>
       <div className={styles.popup}>
         <button className={styles.closeButton} onClick={handleClose}>
           &times;
         </button>
         <h2 className={styles.title}>Contact Me</h2>
         <p className={styles.text}>
-          I'd love to hear from you! Please fill out the form below or connect
+          I'd love to hear from you! Fill out the form below or connect
           with me on LinkedIn or Github:
         </p>
         <div className={styles.formContainer}>
@@ -85,6 +89,7 @@ function Contact() {
           </a>
         </div>
       </div>
+      </SlideInFromTop>
     </div>
   );
 }

@@ -24,7 +24,9 @@ function Projects() {
 
   return (
     <div className={styles.wrapper}>
+      <SlideInFromRight fullWidth={true} offset={200} duration={1}>
       <h2 className={styles.title}>Projects</h2>
+      </SlideInFromRight>
       <div className={styles.carousel}>
         {projects.map((p, index) => {
           const card = (
