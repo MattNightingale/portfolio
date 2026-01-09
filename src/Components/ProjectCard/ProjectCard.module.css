@@ -81,15 +81,6 @@
     align-items: center;
   }
 
-  .wrapper:nth-child(odd) {
-    flex-direction: row-reverse;
-    margin-right: 50px;
-  }
-
-  .wrapper:nth-child(even) {
-    margin-left: 50px;
-  }
-
   .wrapper:hover {
     transform: scale(1.03);
     transition: ease-in-out 0.3s;

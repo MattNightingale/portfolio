@@ -7,10 +7,11 @@ export const SlideInFromLeft = ({
   duration = 1.2,
   delay = 0,
   fullWidth = false,
+  viewAmount = 0.3,
 }) => {
   const ref = useRef(null);
   const controls = useAnimation();
-  const inView = useInView(ref, { once: true });
+  const inView = useInView(ref, { once: true, amount: viewAmount });
 
   useEffect(() => {
     if (inView) {
@@ -52,11 +53,11 @@ export const SlideInFromRight = ({
   duration = 1.2,
   delay = 0,
   fullWidth = false,
+  viewAmount = 0.3,
 }) => {
   const ref = useRef(null);
   const controls = useAnimation();
-  const inView = useInView(ref, { once: true });
-
+  const inView = useInView(ref, { once: true, amount: viewAmount });
   useEffect(() => {
     if (inView) {
       controls.start({

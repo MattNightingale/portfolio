@@ -1,6 +1,6 @@
 html {
   min-height: 100%;
-  scrollbar-gutter: stable;
+  
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  scrollbar-gutter: stable;
+  
   overflow-x: hidden;
 }
 
@@ -47,18 +47,30 @@ body {
   min-height: 100vh;
 }
 
+.backgroundImage {
+  position: fixed;
+  inset: 0;
+  background-image: url("/assets/cogs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  pointer-events: none;
+}
+
 .mainContent {
   flex: 1;
   min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/cogs.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   padding-top: var(--header-height);
+}
+
+.rootLayout,
+.mainContent
+ {
+  position: relative;
 }
 
 @media (min-width: 1024px) {

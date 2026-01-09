@@ -8,6 +8,8 @@
   width: 100%;
   box-sizing: border-box;
   border-top: 1px solid var(--accent-color);
+  z-index: 2;
+  background-color: #22375f;
 }
 
 .footerContent {
