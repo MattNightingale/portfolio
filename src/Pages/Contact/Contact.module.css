@@ -137,9 +137,9 @@ input {
 }
 
 .linkedinIcon:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .githubIcon:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
