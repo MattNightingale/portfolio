@@ -12,7 +12,7 @@ function About() {
       <SlideInFromLeft fullWidth>
         <h2 className={styles.title}>About</h2>
       </SlideInFromLeft>
-      <SlideInFromTop delay={0.2}>
+      <SlideInFromTop delay={0.6}>
         <img
           src="/assets/mugshot.jpg"
           alt="Matt Nightingale portrait"
