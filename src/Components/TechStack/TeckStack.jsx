@@ -5,10 +5,10 @@ import { SlideInFromLeft, SlideInFromRight } from "../Animations/Animations";
 function TechStack() {
   return (
     <div className={styles.wrapper}>
-      <SlideInFromRight fullWidth>
+      <SlideInFromRight fullWidth delay={0.2}>
       <h2 className={styles.title}>Tech Stack</h2>
       </SlideInFromRight>
-      <SlideInFromLeft fullWidth>
+      <SlideInFromLeft fullWidth delay={0.4}>
       <div className={styles.techList}>
         {skills.map((skill) => (
           <div key={skill.name} className={styles.techItem}>

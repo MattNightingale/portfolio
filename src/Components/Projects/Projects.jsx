@@ -24,9 +24,10 @@ function Projects() {
 
   return (
     <div className={styles.wrapper}>
-      <SlideInFromRight fullWidth={true} offset={200} duration={1}>
+      <SlideInFromLeft fullWidth={true} offset={200} duration={1}>
       <h2 className={styles.title}>Projects</h2>
-      </SlideInFromRight>
+      </SlideInFromLeft>
+      <SlideInFromRight fullWidth={true} offset={300} duration={1}>
       <div className={styles.carousel}>
         {projects.map((p, index) => {
           const card = (
@@ -57,11 +58,12 @@ function Projects() {
                 ...marginStyle,
               }}
             >
-              <AnimationComponent key={p.name}>{card}</AnimationComponent>
+              <AnimationComponent key={p.name} delay={0.2}>{card}</AnimationComponent>
             </div>
-          );
+          ); 
         })}
       </div>
+      </SlideInFromRight>
     </div>
   );
 }

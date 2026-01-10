@@ -6,17 +6,17 @@ import { SlideInFromLeft, SlideInFromRight, SlideInFromTop } from "../Animations
 function About() {
   return (
     <div className={styles.wrapper}>
-      <SlideInFromLeft fullWidth>
+      <SlideInFromLeft fullWidth >
       <h2 className={styles.title}>About</h2>
       </SlideInFromLeft>
-      <SlideInFromTop>
+      <SlideInFromTop delay={0.2}>
         <img
           src="/assets/mugshot.jpg"
           alt="Matt Nightingale portrait"
           className={styles.portrait}
         />
       </SlideInFromTop>
-      <SlideInFromRight>
+      <SlideInFromRight delay={0.4}>
         <div className={styles.content}>
           <div className={styles.text}>
             <p>
