@@ -1,8 +1,8 @@
 import styles from "./ProjectCard.module.css";
 
-export function ProjectCard({ title, description, link, image, tech, github }) {
+export function ProjectCard({ title, description, link, image, tech, github, reversed }) {
   return (
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper} ${reversed ? styles.reversed : ''}`}>
       <img src={image} alt={title} className={styles.image} />
       <div className={styles.content}>
         <h3 className={styles.title}>{title}</h3>

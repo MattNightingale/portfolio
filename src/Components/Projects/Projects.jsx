@@ -39,6 +39,7 @@ function Projects() {
               github={p.github}
               image={p.image}
               tech={p.tech}
+              reversed={index % 2 === 1}
             />
           );
 
@@ -51,6 +52,7 @@ function Projects() {
           return (
             <div
               key={p.name}
+              className={styles.cardWrapper}
               style={{
                 width: "100%",
                 display: "flex",
