@@ -4,10 +4,10 @@
   width: 95%;
   max-width: 400px;
   border-radius: 16px;
+  border: 3px solid var(--primary-color);
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  padding: 20px;
   color: var(--text-color);
   background-color: var(--primary-color);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
@@ -25,10 +25,10 @@
 .image {
   width: 100%;
   height: 160px;
-  border-radius: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   object-position: top;
   object-fit: cover;
-  margin: 15px auto;
 }
 
 .techIcon {
@@ -87,9 +87,17 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
 
+  .wrapper:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
   .image {
     width: 330px;
-    height: 250px;
+    height: 300px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 0;
+    object-position: left;
   }
 
   .content {
