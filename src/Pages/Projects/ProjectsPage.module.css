@@ -7,7 +7,7 @@
   background-color: var(--background-color);
   margin: 0;
   border-radius: 0;
-  min-height: calc(100dvh - var(--header-height));
+  min-height: 100dvh;
 }
 
 @media (min-width: 1024px) {
