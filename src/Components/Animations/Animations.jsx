@@ -131,7 +131,6 @@ export const SlideInFromTop = ({
         zIndex: 3,
         display: "flex",
         justifyContent: "center",
-        
       }}
     >
       {children}

@@ -15,6 +15,8 @@
   box-sizing: border-box;
   position: relative;
   scroll-snap-align: center;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .wrapper > * {
@@ -29,6 +31,8 @@
   border-top-right-radius: 16px;
   object-position: top;
   object-fit: cover;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .techIcon {
