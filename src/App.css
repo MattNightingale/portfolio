@@ -42,7 +42,7 @@ body {
 .rootLayout {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .backgroundImage {
@@ -65,8 +65,7 @@ body {
   justify-content: flex-start;
   align-items: stretch;
   padding-top: var(--header-height);
- 
-  min-height: calc(100dvh - var(--header-height));
+  min-height: calc(100dvh - var(--header-height) - 70px);
 }
 
 .rootLayout,
