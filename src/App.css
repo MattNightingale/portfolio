@@ -52,7 +52,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
   transform: translateZ(0); 
   will-change: transform;
   z-index: 0;
@@ -63,9 +62,11 @@ body {
   flex: 1;
   min-width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: stretch;
   padding-top: var(--header-height);
+ 
+  min-height: calc(100dvh - var(--header-height));
 }
 
 .rootLayout,
