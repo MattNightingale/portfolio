@@ -44,7 +44,7 @@ function Projects() {
             );
 
             const AnimationComponent =
-              index % 2 === 0 ? SlideInFromLeft : SlideInFromRight;
+              index % 2 === 0 ? SlideInFromRight : SlideInFromLeft;
             const marginStyle =
               index % 2 === 0
                 ? { marginRight: "50px" }
