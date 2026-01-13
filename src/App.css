@@ -1,6 +1,6 @@
 html {
   min-height: 100%;
-  overscroll-behavior: none;
+  background-color: #22375f;
 }
 
 body {
@@ -10,19 +10,23 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  overscroll-behavior: none;
+  background-color: #22375f;
 }
 
 #root {
   width: 100%;
   text-align: center;
-  background-color: var(--background-color);
   font-size: 1rem;
   font-family: lato, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden;
+  background-image: url("/assets/cogs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* global variables */
@@ -45,19 +49,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100dvh;
-}
-
-.backgroundImage {
-  position: fixed;
-  inset: 0;
-  background-image: url("/assets/cogs.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateZ(0); 
-  will-change: transform;
-
-  pointer-events: none;
+  position: relative;
+  background-color: var(--background-color);
 }
 
 .mainContent {
@@ -67,7 +60,8 @@ body {
   justify-content: flex-start;
   align-items: stretch;
   padding-top: var(--header-height);
-  min-height: calc(100dvh - var(--header-height) - 70px);
+  position: relative;
+
 }
 
 .rootLayout,
@@ -76,7 +70,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .maincontent {
+  .mainContent {
     min-height: 100vh;
   }
 }

@@ -10,7 +10,6 @@ import "./App.css";
 function Root() {
   return (
     <div className="rootLayout">
-      <div className="backgroundImage" aria-hidden="true" />
       <Header />
       <main className="mainContent">
         <Outlet />
