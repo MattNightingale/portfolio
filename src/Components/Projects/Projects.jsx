@@ -67,7 +67,7 @@ function Projects() {
           })}
         </div>
       ) : (
-        <SlideInFromRight fullWidth={true} offset={300} duration={1}>
+        <SlideInFromRight fullWidth={true} offset={200} duration={1}>
           <div className={styles.carousel}>
             {projects.map((p, index) => (
               <ProjectCard

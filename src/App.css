@@ -1,5 +1,6 @@
 html {
   min-height: 100%;
+  overscroll-behavior: none;
 }
 
 body {
@@ -9,12 +10,13 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 #root {
   width: 100%;
   text-align: center;
-  background-color: #22375f;
+  background-color: var(--background-color);
   font-size: 1rem;
   font-family: lato, sans-serif;
   display: flex;
@@ -54,7 +56,7 @@ body {
   background-repeat: no-repeat;
   transform: translateZ(0); 
   will-change: transform;
-  z-index: 0;
+
   pointer-events: none;
 }
 
