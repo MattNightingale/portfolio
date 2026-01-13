@@ -26,7 +26,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   opacity: 0;
   animation: fadeInBackground 0.8s ease-in forwards;
 }
@@ -84,3 +84,6 @@ body {
     min-height: 100vh;
   }
 }
+  #root {
+    background-attachment: fixed;
+  }
