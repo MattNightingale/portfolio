@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   opacity: 0;
-  animation: fadeInBackground 0.8s ease-in forwards;
+  animation: fadeInBackground 0.4s ease-in forwards;
 }
 
 @keyframes fadeInBackground {
@@ -83,7 +83,7 @@ body {
   .mainContent {
     min-height: 100vh;
   }
-}
   #root {
     background-attachment: fixed;
   }
+}
