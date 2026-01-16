@@ -11,14 +11,14 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/assets/linkedin.webp" className={styles.liIcon} />
+            <img src="/assets/linkedin.webp" className={styles.liIcon} alt="Link to LinkedIn"/>
           </a>
           <a
             href="https://github.com/MattNightingale"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/assets/github.webp" className={styles.ghIcon} />
+            <img src="/assets/github.webp" className={styles.ghIcon} alt="Link to GitHub"/>
           </a>
         </div>
       </div>
