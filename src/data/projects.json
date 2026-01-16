@@ -18,7 +18,7 @@
     "name": "Jammmin'",
     "description": "A React web app for searching music and creating playlists using the Spotify API. Users can search for tracks, add them to a custom playlist, and save the playlist to their Spotify account. The app features a clean, responsive design and demonstrates key React concepts such as component-based architecture and state management. OAuth authentication is implemented to securely connect with the Spotify API.",
     "image": "/assets/jammmin2.webp",
-    "link": "https://jammming-kohl-eight.vercel.app/",
+    "link": "https://jammming-coral.vercel.app/",
     "github": "https://github.com/MattNightingale/Jammming",
     "tech": [
       "/assets/javascript.webp",
