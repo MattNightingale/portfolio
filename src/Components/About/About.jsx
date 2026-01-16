@@ -14,7 +14,7 @@ function About() {
       </SlideInFromLeft>
       <SlideInFromTop delay={0.6}>
         <img
-          src="/assets/mugshot.jpg"
+          src="/assets/mugshot.webp"
           alt="Matt Nightingale portrait"
           className={styles.portrait}
         />
@@ -41,8 +41,8 @@ function About() {
             <p>
               When I’m not coding, you’ll find me in the mountains, cycling,
               skiing or generally adventuring, or in the kitchen working on new
-              recipies. I’m an avid reader and lifelong learner, always
-              keen to explore new technologies and engineering concepts.
+              recipies. I’m an avid reader and lifelong learner, always keen to
+              explore new technologies and engineering concepts.
             </p>
           </div>
         </div>

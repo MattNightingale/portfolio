@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden;
-  background-image: url("/assets/cogs.jpg");
+  background-image: url("/assets/cogs.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

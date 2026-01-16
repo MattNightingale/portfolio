@@ -3,7 +3,6 @@ import styles from "./Header.module.css";
 import { slide as Menu } from "react-burger-menu";
 import { useState } from "react";
 
-
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,11 +16,11 @@ export function Header() {
 
   return (
     <header className={styles.wrapper}>
-      <div className={styles.headerContent}>    
+      <div className={styles.headerContent}>
         <div className={styles.headerLeft}>
           <img
             className={styles.logo}
-            src="/assets/mnlogovector.png"
+            src="/assets/mnlogovector.webp"
             alt="Matt Nightingale Logo"
           />
           <h1 className={styles.title}>Matt Nightingale</h1>

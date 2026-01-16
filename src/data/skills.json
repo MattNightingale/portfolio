@@ -1,30 +1,30 @@
 [
-    {
-        "name": "JavaScript",
-        "icon": "/assets/javascript.png"
-    },
-    {
-        "name": "TypeScript",
-        "icon": "/assets/typescript.png"
-    },
-    {
-        "name": "React",
-        "icon": "/assets/react.png"
-    },
-    {
-        "name": "CSS",
-        "icon": "/assets/css.png"
-    },
-    {
-        "name": "HTML",
-        "icon": "/assets/html.png"
-    },
-    {
-        "name": "Redux",
-        "icon": "/assets/redux.png"
-    },
-    {
-        "name": "Git",
-        "icon": "/assets/git.png"
-    }
+  {
+    "name": "JavaScript",
+    "icon": "/assets/javascript.webp"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "/assets/typescript.webp"
+  },
+  {
+    "name": "React",
+    "icon": "/assets/react.webp"
+  },
+  {
+    "name": "CSS",
+    "icon": "/assets/css.webp"
+  },
+  {
+    "name": "HTML",
+    "icon": "/assets/html.webp"
+  },
+  {
+    "name": "Redux",
+    "icon": "/assets/redux.webp"
+  },
+  {
+    "name": "Git",
+    "icon": "/assets/git.webp"
+  }
 ]
